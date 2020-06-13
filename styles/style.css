@@ -1,0 +1,132 @@
+body {
+  color: white;
+}
+
+header {
+  background-color: #142850;
+  margin: 0;
+  padding: 2vw;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #27496d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav div {
+  width: 6vw;
+  padding: 1.5vw 1vw;
+  text-align: center;
+  font-size: 1.3vw;
+  font-family: sans-serif;
+}
+
+nav div:hover {
+  background-color: orange;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  background-color: #0c7b93;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer {
+  background-color: #00a8cc;
+  margin: 0;
+  padding: 2vw;
+  text-align: center;
+  font-size: 2.5vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img_con {
+  padding: 1vw;
+  margin: 1vw;
+  width: 15vw;
+  height: 20vw;
+}
+
+.img_con img {
+  width: 15vw;
+  height: 20vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.like {
+  width: 5vw;
+  height: 5vw;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: #0c7b93;
+}
+
+.mov_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  font-family: sans-serif;
+  font-size: 1vw;
+  padding: 1vw;
+  margin: 1vw;
+}
+
+.movie_inf {
+  font-size: 0.5vw;
+  font-family: Arial;
+}
+
+.movie_wrapper {
+  width: 40vw;
+  height: 40vw;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#container {
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */

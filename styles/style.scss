@@ -44,7 +44,7 @@ main {
 }
 
 footer {
-    background-color: #00a8cc;
+    background-color: #142850;
     margin: 0;
     padding: 2vw;
     text-align: center;
@@ -68,7 +68,6 @@ footer {
     width: 5vw;
     height: 5vw;
     object-fit: contain;
-    background-color: #0c7b93;
 }
 
 .mov_title {
@@ -87,12 +86,23 @@ footer {
 
 .movie_wrapper {
     width: 40vw;
-    height: 40vw;
+    height: 23vw;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 1vw;
+    background-color: orange;
+    border-radius: 5px;
 }
 
 #container {
     width: 100%;
     justify-content: center;
+}
+
+.header {
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1.5vw 0;
+    padding: 0.5vw 0;
+    text-shadow: 19px 9px 2px rgba(5, 19, 27, 0.29);
 }

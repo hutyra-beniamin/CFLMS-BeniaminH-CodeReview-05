@@ -63,7 +63,7 @@ main div {
 }
 
 footer {
-  background-color: #00a8cc;
+  background-color: #142850;
   margin: 0;
   padding: 2vw;
   text-align: center;
@@ -90,7 +90,6 @@ footer {
   height: 5vw;
   -o-object-fit: contain;
      object-fit: contain;
-  background-color: #0c7b93;
 }
 
 .mov_title {
@@ -114,13 +113,16 @@ footer {
 
 .movie_wrapper {
   width: 40vw;
-  height: 40vw;
+  height: 23vw;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 1vw;
+  background-color: orange;
+  border-radius: 5px;
 }
 
 #container {
@@ -128,5 +130,13 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header {
+  font-size: 3vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 1.5vw 0;
+  padding: 0.5vw 0;
+  text-shadow: 19px 9px 2px rgba(5, 19, 27, 0.29);
 }
 /*# sourceMappingURL=style.css.map */

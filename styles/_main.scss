@@ -1,0 +1,176 @@
+/*Main tag styling*/
+
+main {
+    background-color: #0c7b93;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
+/*<h1> tag styling in Main*/
+
+.header {
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1.5vw 0;
+    padding: 0.5vw 0;
+    text-shadow: 19px 9px 2px rgba(5, 19, 27, 0.29);
+}
+
+
+/*Images styling*/
+
+.img_con {
+    padding: 1vw;
+    margin: 1vw;
+    width: 15vw;
+    height: 20vw;
+    img {
+        width: 15vw;
+        height: 20vw;
+        object-fit: cover;
+    }
+}
+
+
+/*the Main content styling start*/
+
+
+/*Like styling*/
+
+.like {
+    width: 5vw;
+    height: 5vw;
+    object-fit: contain;
+}
+
+.mov_title {
+    display: flex;
+    flex-flow: column;
+    font-family: sans-serif;
+    justify-content: center;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 0.5vw;
+    h3 {
+        font-size: 1.4vw;
+        font-family: sans-serif;
+    }
+}
+
+.movie_inf {
+    font-size: 0.5vw;
+    font-family: Arial;
+}
+
+.movie_wrapper {
+    width: 35vw;
+    height: 23vw;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5vw;
+    padding: 0;
+    background-color: rgb(35, 48, 53);
+    border-radius: 5px;
+}
+
+#container {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*Styling for paragraph with with ccontent "Like"*/
+
+p {
+    color: green;
+    font-size: 1.5vw;
+}
+
+
+/*The Circle with the likes counter styling*/
+
+.headerCounter {
+    background-color: green;
+    font-size: 2vw;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*the Main content styling ends*/
+
+
+/*Sorting function styling starts*/
+
+#buttons {
+    background-color: #204051;
+    flex-basis: 45%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#sort {
+    background-color: #204051;
+    color: white;
+    font-size: 1.5vw;
+    border: none;
+    margin: 1vw;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 22vw;
+    right: 3vw;
+}
+
+#sort>span {
+    font-size: 1.2vw;
+}
+
+#sub_buttons {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 22vw;
+    right: 3vw;
+    background-color: rgb(0, 0, 0);
+    width: 12vw;
+}
+
+.sub_button {
+    border: 0;
+    background-color: inherit;
+    color: white;
+    font-size: 1vw;
+    width: 100%;
+    padding: 1vw;
+    cursor: pointer;
+}
+
+.sub_button:hover {
+    background-color: rgba(29, 36, 42, 0.4);
+}
+
+#buttons:hover #sub_buttons {
+    display: block;
+}
+
+#sort_button:hover {
+    background-color: rgba(29, 36, 42, 0.4);
+}
+
+
+/*Sorting function styling ends*/

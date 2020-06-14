@@ -4,46 +4,40 @@ var movies = `[{
     "genre": "Drama",
     "Directed": "Sam Mendes",
     "Written": "Sam Mendes , Krysty Wilson-Cairns",
-    "Studio": "Universal Pictures",
-    "Movie Info": "At the height of the First World War, two young British soldiers, Schofield (Captain Fantastic's George MacKay) and Blake (Game of Thrones' Dean-Charles Chapman) are given a seemingly impossible mission. In a race against time, they must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers--Blake's own brother among them."
+    "Studio": "Universal Pictures"
 }, {
     "image": "img/gladiator.jpg",
     "title": "Gladiator",
     "genre": "Action & Adventure, Classics, Drama",
     "Directed": "Ridley Scott",
     "Written": "David H. Franzoni, Wiliam Nicholson, John Logan",
-    "Studio": "Dreamworks Distribution LLC",
-    "Movie Info": "A man robbed of his name and his dignity strives to win them back, and gain the freedom of his people, in this epic historical drama from director Ridley Scott. In the year 180, the death of emperor Marcus Aurelius (Richard Harris) throws the Roman Empire into chaos. Maximus (Russell Crowe) is one of the Roman army's most capable and trusted generals and a key advisor to the emperor. As Marcus' devious son Commodus (Joaquin Phoenix) ascends to the throne, Maximus is set to be executed. He escapes, but is captured by slave traders. Renamed Spaniard and forced to become a gladiator, Maximus must battle to the death with other men for the amusement of paying audiences. His battle skills serve him well, and he becomes one of the most famous and admired men to fight in the Colosseum. Determined to avenge himself against the man who took away his freedom and laid waste to his family, Maximus believes that he can use his fame and skill in the ring to avenge the loss of his family and former glory. As the gladiator begins to challenge his rule, Commodus decides to put his own fighting mettle to the test by squaring off with Maximus in a battle to the death. Gladiator also features Derek Jacobi, Connie Nielsen, Djimon Hounsou, and Oliver Reed, who died of a heart attack midway through production. ~ Mark Deming, Rovi"
+    "Studio": "Dreamworks Distribution LLC"
 }, {
     "image": "img/avatar.jpg",
     "title": "Avatar",
     "genre": "Action & Adventure, Science Fiction & Fantasy",
     "Directed": "James Cameron",
     "Written": "James Cameron",
-    "Studio": "20th Century Fox",
-    "Movie Info": "Avatar is the story of an ex-Marine who finds himself thrust into hostilities on an alien planet filled with exotic life forms. As an Avatar, a human mind in an alien body, he finds himself torn between two worlds, in a desperate fight for his own survival and that of the indigenous people."
+    "Studio": "20th Century Fox"
 }, {
     "image": "img/starwars.jpg",
-    "title": "Rogue One: a Star Wars Story ",
-    "genre": "Action & Adventure, Drama, Science Fiction & Fantasy",
+    "title": "Rogue One",
+    "genre": "Action & Adventure, Science Fiction & Fantasy",
     "Directed": "Gareth Edwards",
     "Written": "George Lucas, Chris Weitz, Tony Gilroy",
-    "Studio": "Walt Disney Pictures",
-    "Movie Info": "From Lucasfilm comes the first of the Star Wars standalone films, Rogue One: A Star Wars Story, an all-new epic adventure. In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction. This key event in the Star Wars timeline brings together ordinary people who choose to do extraordinary things, and in doing so, become part of something greater than themselves."
+    "Studio": "Walt Disney Pictures"
 }, {
     "image": "img/avengers.jpg",
-    "title": "Avengers: Endgame",
+    "title": "Avengers",
     "genre": "Action & Adventure, Drama, Science Fiction & Fantas",
     "Directed": "Anthony Russo",
     "Written": "Christopher Markus, Stephen McFeely",
-    "Studio": "Marvel Studios",
-    "Movie Info": "The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios, grand conclusion to twenty-two films, Avengers: Endgame."
+    "Studio": "Marvel Studios"
 }, {
     "image": "img/lion.jpg",
     "title": "The Lion King",
     "genre": "Action & Adventure, Animation, Drama",
     "Directed": "",
     "Written": "Jeff Nathanson",
-    "Studio": "Walt Disney Pictures",
-    "Movie Info": "From Disney Live Action, director Jon Favreau's all-new The Lion King journeys to the African savanna where a future king is born. Simba idolizes his father, King Mufasa, and takes to heart his own royal destiny. But not everyone in the kingdom celebrates the new cub's arrival. Scar, Mufasa's brother-and former heir to the throne-has plans of his own. The battle for Pride Rock is ravaged with betrayal, tragedy and drama, ultimately resulting in Simba's exile. With help from a curious pair of newfound friends, Simba will have to figure out how to grow up and take back what is rightfully his."
+    "Studio": "Walt Disney Pictures"
 }]`

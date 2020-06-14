@@ -6,36 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Factory</title>
     <link rel="stylesheet" href="styles/style.css">
+    <!--Link for styling-->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!--Link for jQuery-->
 </head>
 
 <body>
+    <!--Header starts-->
     <header>
         <h1>Movie Factory</h1>
     </header>
+    <!--Header ends-->
+    <!--Navbar starts-->
     <nav>
-        <div><a href="#">Home</a></div>
-        <div><a href="#">About us</a></div>
-        <div><a href="#">Contact</a></div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="https://codefactory.wien/de/contact-de/">Contact</a></div>
     </nav>
+    <!--Navbar ends-->
+
+    <!--Main content starts-->
 
     <main>
-        <h1 class="header">Movies</h1>
+        <div>
+            <span><h1 class="header">Movies</h1></span>
+            <!--Sort button function starts-->
+            <span>
+                <div id="buttons">
+                <button id="sort"><span>&#9660;</span>Sort</button>
+            <div id="sub_buttons">
+                <button class="sub_button" id="pop">Most Popular</button>
+                <button class="sub_button" id="lea">Least Popular</button>
+                <button class="sub_button" id="abc">ABC</button>
+            </div>
+        </div>
+        </span>
+        </div>
+        <!--Sort button function ends-->
         <div id="wrapper">
             <div id="container">
             </div>
         </div>
     </main>
+    <!--Main content ends-->
+    <!--Second Navabr starts-->
     <nav>
-        <div><a href="#">Home</a></div>
-        <div><a href="#">About us</a></div>
-        <div><a href="#">Contact</a></div>
+        <div><a href="index.html">Home</a></div>
+        <div><a href="https://codefactory.wien/de/contact-de/">Contact</a></div>
     </nav>
+    <!--Second Navbar ends-->
+    <!--Footer starts-->
     <footer>
         <h3>Movie Factory</h3>
     </footer>
+    <!--Footer ends starts-->
 
-
+    <!--JS scripts for Main Content-->
     <script src="script/movies.json"></script>
     <script src="script/script.js"></script>
 

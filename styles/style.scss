@@ -1,108 +1,42 @@
+/*styilng for Header*/
+
+@import "./header";
+
+/*styilng for Navbar*/
+
+@import "./navbar";
+
+/*styilng for Main content*/
+
+@import "./main";
+
+/*styilng for Footer*/
+
+@import "./footer";
 body {
     color: white;
 }
 
-header {
-    background-color: #142850;
-    margin: 0;
-    padding: 2vw;
-    text-align: center;
-    font-size: 2.5vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-nav {
-    background-color: #27496d;
-    display: flex;
-    div {
-        width: 6vw;
-        padding: 1.5vw 1vw;
-        text-align: center;
-        font-size: 1.3vw;
-        font-family: sans-serif;
-    }
-    div:hover {
-        background-color: orange;
-    }
-    a {
-        text-decoration: none;
-        color: white;
-    }
-}
+/*Media Queries starts*/
 
-main {
-    background-color: #0c7b93;
-    display: flex;
-    flex-flow: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    div {
+@media screen and (max-width: 500px) {
+    main {
         display: flex;
+        flex-flow: column;
         flex-wrap: wrap;
+        .movie_wrapper {
+            width: 60vw;
+            height: 30vw;
+            align-items: center;
+            justify-content: center;
+            margin: 0.5vw;
+            padding: 0;
+            background-color: rgb(35, 48, 53);
+            border-radius: 5px;
+        }
     }
 }
 
-footer {
-    background-color: #142850;
-    margin: 0;
-    padding: 2vw;
-    text-align: center;
-    font-size: 2.5vw;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.img_con {
-    padding: 1vw;
-    margin: 1vw;
-    width: 15vw;
-    height: 20vw;
-    img {
-        width: 15vw;
-        height: 20vw;
-        object-fit: cover;
-    }
-}
-
-.like {
-    width: 5vw;
-    height: 5vw;
-    object-fit: contain;
-}
-
-.mov_title {
-    display: flex;
-    flex-flow: column;
-    font-family: sans-serif;
-    font-size: 1vw;
-    padding: 1vw;
-    margin: 1vw;
-}
-
-.movie_inf {
-    font-size: 0.5vw;
-    font-family: Arial;
-}
-
-.movie_wrapper {
-    width: 40vw;
-    height: 23vw;
-    align-items: center;
-    justify-content: space-between;
-    margin: 1vw;
-    background-color: orange;
-    border-radius: 5px;
-}
-
-#container {
-    width: 100%;
-    justify-content: center;
-}
-
-.header {
-    font-size: 3vw;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 1.5vw 0;
-    padding: 0.5vw 0;
-    text-shadow: 19px 9px 2px rgba(5, 19, 27, 0.29);
-}
+/*Media Queries ends*/
